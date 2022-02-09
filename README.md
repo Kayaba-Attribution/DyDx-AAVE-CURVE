@@ -24,7 +24,7 @@ npm install --save-dev hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @n
 // Compile the contracts
 npx hardhat compile
 
-// On another CMD fork the ETH mainet
+// On another terminal fork the ETH mainet
 npx hardhat node --fork https://speedy-nodes-nyc.moralis.io/your-key/eth/mainnet/archive --fork-block-number 13506500
 
 // (runs the test contract that logs on every step with CurveFi swaps disabled)
